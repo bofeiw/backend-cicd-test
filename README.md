@@ -1,4 +1,4 @@
-2
+3
 <img src="logo-sticker.svg" alt="Rowy Run" height="60" />
 
 Rowy Run is a Cloud Run instance that provides backend functionality, such as table action scripts, user management, and easy Cloud Function deployment.
