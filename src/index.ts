@@ -39,7 +39,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get("/", async (req, res) => {
-  const projectId = await getProjectId();
+  const projectId = await getProjectIds();
   try {
     res.redirect(`https://${projectId}.rowy.app`);
   } catch (error) {
