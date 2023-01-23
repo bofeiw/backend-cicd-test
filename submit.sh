@@ -1,6 +1,6 @@
 #!/bin/bash
 name=rowy-backend
-project_id=rowy-run
+project_id=rowy-service-dev
 yarn
 npx tsc
 npm run build
